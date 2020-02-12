@@ -31,7 +31,7 @@ def mergeSort(listing):
 
 def insertionSort(listing):
     for indx in range(len(listing)):
-        num = listing[indx]
+        result = listing[indx]
         i = indx - 1
         while i >= 0:
             if num < listing[i]:
@@ -40,8 +40,6 @@ def insertionSort(listing):
                 i -= 1
             else:
                 break
-    for i in range(len(listing)):
-        print(listing[i])
 
 
 number = []
@@ -49,10 +47,10 @@ runTime = []
 output = []
 runTimeTwo = []
 
-num = int(input("Number element of list:")) 
+num = int(input("Number of element:"))
 for i in range(0, num):
     starTime = time.time()
-    x = (int(input("Enter number you want to sort :")))
+    x = (int(input("How many number you want to sort :")))
     number.append(x)
     starTime = time.time()
     output = [random.randint(1, x)for iter in range(x)]
