@@ -30,6 +30,7 @@ def mergeSort(listing):
 
 
 def insertionSort(listing):
+    result = []
     for indx in range(len(listing)):
         result = listing[indx]
         i = indx - 1
@@ -40,6 +41,8 @@ def insertionSort(listing):
                 i -= 1
             else:
                 break
+    result.append(listing)
+    return result
 
 
 number = []
