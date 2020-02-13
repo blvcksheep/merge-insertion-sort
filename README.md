@@ -1,8 +1,8 @@
 Inputs and ouputs 
-![](prtSc.png)
-![](prtSc2.png)
-![](prtSc3.png)
+![](Images/prtSc.png)
+![](Images/prtSc2.png)
+![](Images/prtSc3.png)
 
 Graph
-![](prtSc4.png)
+![](Images/prtSc4.png)
 
